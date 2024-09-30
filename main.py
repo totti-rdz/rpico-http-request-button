@@ -12,6 +12,7 @@ def createRequest(url):
     return request
 
 button = Button(14)
+#button2 = Button(10) # second button connected to GPIO 10
 
 try:
     ip = wifi.connect(SSID, PASSWORD)
